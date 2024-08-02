@@ -155,13 +155,14 @@ body{
     display: block;
 }
 }
-section{
-    padding: 2rem 9%;
-}
 .body{
-    padding: 2rem 0;
+    padding: 2rem 2rem 0;
 }
-
+@media screen and (max-width: 768px)  {  
+    .body{
+        padding: 1rem 2rem 0;
+    }
+}
 .home{
     display: flex;
     align-items: center;
@@ -229,13 +230,9 @@ section{
 
 body{
     background-color: #fcfafa;
-    margin: 20px;
 }
-
 .container{
     width: 90%;
-    margin: 0 auto;
-
 }
 .about2{
     display: flex;
@@ -347,25 +344,17 @@ body{
     gap: 1.5rem;
 }
 .skill-area{
-    padding-top: 5%;
-
+    padding: 5% 0;
 }
 .custom{
     max-width: 1024px;
     display: grid;
-    grid-template-columns: 100%;
+    grid-template-columns: 90%;
     column-gap: 2rem;
-    width: calc(100%-2rem);
-    margin-left: 1rem;
-    margin-right: 1rem;
+    width: calc(100%-1rem);
 }
 .skill-box{
     padding: 2rem;
-}
-.title-area{
-    font-size: 25px;
-    text-transform: uppercase;
-    color: black;
 }
 .single-skill{
     position: relative;
