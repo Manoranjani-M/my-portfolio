@@ -281,6 +281,7 @@ body{
 @media screen and (max-width: 768px)  {  
     .about2{
         flex-direction: column;
+        margin: 0 1em;
     }
     .about-image{
         margin-right: 0;
