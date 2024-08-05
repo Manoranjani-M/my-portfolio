@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap');
 
 :root{
-    --orange:#0462f0;
+    --blue:#0462f0;
     --black:#130f40;
     --light-color:#666;
     --box-shadow:0 .5rem 1rem rgba(0,0,0,.1);
@@ -42,7 +42,7 @@ body{
     color: var(--black);
 }
 .btn:hover{
-    background: var(--orange);
+    background: var(--blue);
     color: #eee;
 }
 .header{
@@ -70,7 +70,7 @@ body{
     color: var(--black);
 }
 .header .navbar a:hover{
-    color:var(--orange)
+    color:var(--blue)
 }
 .header .icon div{
     height: 4.5rem;
@@ -85,7 +85,7 @@ body{
     text-align: center;
 }
 .header .icon div:hover{
-    background: var(--orange);
+    background: var(--blue);
     color: #fff;
 }
 #menu-btn{
@@ -155,8 +155,11 @@ body{
     display: block;
 }
 }
+section{
+    padding: 2rem 4%;
+}
 .body{
-    padding: 1rem 0;
+    padding: 2rem 0;
 }
 
 .home{
@@ -175,7 +178,7 @@ body{
     font-size: 3rem;
 }
 .home .content h3 span{
-    color: var(--orange);
+    color: var(--blue);
 }
 .home .content p{
     color: var(--light-color);
@@ -186,7 +189,7 @@ body{
 .resume{
     display: inline-block;
     padding: 10px 20px;
-    background-color: #0462f0;
+    background-color: var(--blue);
     color: #fff;
     font-size: 19px;
     text-decoration: none;
@@ -207,7 +210,7 @@ body{
     color: var(--black);
 }
 .heading span{
-    background: var(--orange);
+    background: var(--blue);
     color: #fff;
     display: inline-block;
     padding: .5rem 3rem;
@@ -219,7 +222,7 @@ body{
     padding: 1rem;
     margin: 1.9rem 0 0 0;
     border-radius: 50%;
-    color: #0462f0;
+    color: var(--blue);
     border: none;
     margin-top: 3rem;
 }
@@ -227,8 +230,13 @@ body{
 body{
     background-color: #fcfafa;
 }
+.body{
+    margin: 0 2rem;
+}
 .container{
     width: 90%;
+    margin: 0 auto;
+
 }
 .about2{
     display: flex;
@@ -238,7 +246,6 @@ body{
 }
 .about-image{
     flex: 1;
-    
     overflow: hidden;
 }
 .about-image img{
@@ -267,7 +274,7 @@ body{
 .about-content .read-more{
     display: inline-block;
     padding: 10px 20px;
-    background-color: #0462f0;
+    background-color: var(--blue);
     color: #fff;
     font-size: 19px;
     text-decoration: none;
@@ -276,15 +283,15 @@ body{
     transition: 0.3s ease;
 }
 .about-content .read-more:hover{
-    background-color: #0462f0;
+    background-color: var(--blue);
 }
 @media screen and (max-width: 768px)  {  
     .about2{
         flex-direction: column;
-        margin: 0 1em;
+        justify-content: center;
+        align-items: center;
     }
     .about-image{
-        margin-right: 0;
         margin-bottom: 20px;
     }
     .about-content p{
@@ -292,7 +299,7 @@ body{
         font-size: 16px;
     }
     .about-content .read-more{
-        font-size: 16px;
+        font-size: 14px;
     }
 }
 
@@ -300,6 +307,7 @@ body{
     display: grid;
     grid-template-columns: repeat(auto-fit,minmax(30rem,1fr));
     gap: 1.5rem;
+    margin: 0 2rem;
 }
 .projects .box-container .box{
     background: #fffefe;
@@ -341,17 +349,25 @@ body{
     gap: 1.5rem;
 }
 .skill-area{
-    padding: 5% 0;
+    padding-top: 5%;
+
 }
 .custom{
     max-width: 1024px;
     display: grid;
-    grid-template-columns: 90%;
+    grid-template-columns: 100%;
     column-gap: 2rem;
-    width: calc(100%-1rem);
+    width: calc(100%-2rem);
+    margin-left: 1rem;
+    margin-right: 1rem;
 }
 .skill-box{
     padding: 2rem;
+}
+.title-area{
+    font-size: 25px;
+    text-transform: uppercase;
+    color: black;
 }
 .single-skill{
     position: relative;
@@ -375,7 +391,7 @@ body{
     bottom: -.55em;
     height: 1.4rem;
     border-radius: 20px;
-    background-color: #0462f0;
+    background-color: var(--blue);
 }
 .percentage{
     font-size: 15px;
@@ -397,13 +413,13 @@ body{
     width: 70%;
 }
 .bar-6{
-    width: 90%;
+    width: 75%;
 }
 .bar-11{
     width: 60%;
 }
 .bar-12{
-    width: 75%;
+    width: 85%;
 }
 .bar-13{
     width: 90%;
@@ -412,7 +428,7 @@ body{
     width: 60%;
 }
 .bar-15{
-    width: 70%;
+    width: 90%;
 }
 @media screen and (min-width:786px) {
     .custom{
@@ -435,7 +451,7 @@ body{
     background: #fffefe;
     border-radius: .5rem;
     text-align: center;
-    padding: 3rem 2rem;
+    padding: 3rem 1rem;
     outline-offset: -1rem;
     outline: var(--outline);
     box-shadow: var(--box-shadow);
@@ -478,7 +494,7 @@ body{
     padding: 1rem;
 }
 .footer .box-container .box .links i{
-    color: var(--orange);
+    color: var(--blue);
     padding-right: .5rem;
 }
 .footer .box-container .box .links:hover {
