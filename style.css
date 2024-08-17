@@ -424,7 +424,7 @@ body{
     width: 60%;
 }
 .bar-12{
-    width: 85%;
+    width: 80%;
 }
 .bar-13{
     width: 90%;
@@ -433,7 +433,7 @@ body{
     width: 60%;
 }
 .bar-15{
-    width: 90%;
+    width: 80%;
 }
 @media screen and (min-width:786px) {
     .custom{
@@ -480,7 +480,7 @@ body{
     font-size: 1.7rem;
     color: var(--light-color);
     line-height: 1.8rem;
-    padding: 1rem 0;
+    padding: 1rem 5px;
 }
 
 .footer .box-container{
