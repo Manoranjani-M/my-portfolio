@@ -323,11 +323,11 @@ body{
     outline-offset: 0rem;
     outline: var(--outline-hover);
 }
-.projects .box-container .box img{
+/* .projects .box-container .box img{
     height: 15rem;    
     margin: 1rem 0;
     border-radius: .5rem;
-}
+} */
 .projects .box-container .box h3{
     font-size: 2rem;
     color: var(--black);
@@ -342,6 +342,11 @@ body{
 .projects .box-container .box a {
     display: block;
     font-size: 1.7rem;
+    color: var(--blue);
+}
+.projects .box-container .box a:hover{
+    color: var(--blue);
+    cursor: pointer;
 }
 .certifications .box-container{
     display: grid;
