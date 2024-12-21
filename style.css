@@ -415,7 +415,7 @@ body{
     width: 70%;
 }
 .bar-5{
-    width: 70%;
+    width: 60%;
 }
 .bar-6{
     width: 75%;
@@ -452,6 +452,38 @@ body{
         margin-right: auto;
     }
 }
+
+.internship .box-container .box{
+    background: #fffefe;
+    border-radius: .5rem;
+    text-align: center;
+    padding: 3rem 1rem;
+    outline-offset: -1rem;
+    outline: var(--outline);
+    box-shadow: var(--box-shadow);
+    transition: .2s linear;
+}
+.internship .box-container .box:hover{
+    outline-offset: 0rem;
+    outline: var(--outline-hover);
+}
+.internship .box-container .box img{
+    height: 20rem;    
+    margin: 1rem 0;
+    border-radius: .5rem;
+}
+.internship .box-container .box h3{
+    font-size: 2rem;
+    color: var(--black);
+    line-height: 1.8rem;
+}
+.internship .box-container .box p{
+    font-size: 1.7rem;
+    color: var(--light-color);
+    line-height: 1.8rem;
+    padding: 1rem 5px;
+}
+
 .certifications .box-container .box{
     background: #fffefe;
     border-radius: .5rem;
@@ -482,6 +514,7 @@ body{
     line-height: 1.8rem;
     padding: 1rem 5px;
 }
+
 
 .footer .box-container{
     align-items: center;
