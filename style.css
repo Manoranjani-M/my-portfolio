@@ -46,6 +46,7 @@ body{
     color: #eee;
 }
 .header{
+    text-transform: uppercase;
     position: fixed;
     top: 0;left: 0;right: 0;
     z-index: 1000;
@@ -348,11 +349,7 @@ body{
     color: var(--blue);
     cursor: pointer;
 }
-.certifications .box-container{
-    display: grid;
-    grid-template-columns: repeat(auto-fit,minmax(30rem,1fr));
-    gap: 1.5rem;
-}
+
 .skill-area{
     padding-top: 5%;
 
@@ -452,6 +449,11 @@ body{
         margin-right: auto;
     }
 }
+.internship .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(30rem,1fr));
+    gap: 1.5rem;
+}
 
 .internship .box-container .box{
     background: #fffefe;
@@ -482,6 +484,11 @@ body{
     color: var(--light-color);
     line-height: 1.8rem;
     padding: 1rem 5px;
+}
+.certifications .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(30rem,1fr));
+    gap: 1.5rem;
 }
 
 .certifications .box-container .box{
